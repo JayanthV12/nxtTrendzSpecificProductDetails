@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.similar-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  margin: 20px;
+  list-style-type: none;
+}
+.image {
+  height: 300px;
+  width: 300px;
+  border-radius: 12px;
+}
+.price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rating-star {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border-width: 0px;
+}

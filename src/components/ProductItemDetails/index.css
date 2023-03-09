@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+}
+.special {
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
+  margin-right: 20px;
+}
+.star-image {
+  height: 20px;
+  width: 20px;
+}
+.rating-button {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-radius: 12px;
+  border-width: 0px;
+  color: white;
+  margin-right: 20px;
+}
+
+.add-cart {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-radius: 12px;
+  border-width: 0px;
+  color: white;
+  margin-right: 20px;
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
